@@ -1,2 +1,2 @@
 # HavaDurum
-burada pythondan verileri firebaseye aktardım ve sonra qt'den firebasedeki verileri çekip işledim
+il önce  pythondan verileri firebaseye aktardım. Sonra  qt'den firebasedeki verileri çekip işledim
