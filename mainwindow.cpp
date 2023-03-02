@@ -100,6 +100,11 @@ void MainWindow::setWeatherIcon(QString weatherCode)
           ui->image_first_6->setPixmap(pixmap);
            ui->image_first_7->setPixmap(pixmap);
             ui->image_first_8->setPixmap(pixmap);
+            ui->image_pzt->setPixmap(pixmap);
+             ui->image_sali->setPixmap(pixmap);
+              ui->image_crs->setPixmap(pixmap);
+               ui->image_prs->setPixmap(pixmap);
+                ui->image_cuma->setPixmap(pixmap);
 
     }
 }
@@ -210,25 +215,25 @@ void MainWindow::on_Guncelle_clicked(){
 
                             // burada sıcaklığı işleyin
                             if (j == 0) {
-                                ui->temp_3->setText(QString(" %1°C").arg(temp-276));
+                                ui->temp_3->setText(QString(" %1°C").arg(temp-273.1));
                                 ui->time_3->setText(timeStr);
                             } else if (j == 1) {
-                                ui->temp_6->setText(QString(" %1°C").arg(temp-278));
+                                ui->temp_6->setText(QString(" %1°C").arg(temp-273.3));
                                 ui->time_6->setText(timeStr);
                             } else if (j == 2) {
-                                ui->temp_5->setText(QString(" %1°C").arg(temp-273.9));
+                                ui->temp_5->setText(QString(" %1°C").arg(temp-274.1));
                                 ui->time_5->setText(timeStr);
                             } else if (j == 3) {
-                                ui->temp_7->setText(QString(" %1°C").arg(temp-278.4));
+                                ui->temp_7->setText(QString(" %1°C").arg(temp-273.7));
                                 ui->time_7->setText(timeStr);
                             } else if (j == 4) {
-                                ui->temp_4->setText(QString(" %1°C").arg(temp-276));
+                                ui->temp_4->setText(QString(" %1°C").arg(temp-274));
                                 ui->time_4->setText(timeStr);
                             } else if (j == 5) {
-                                ui->temp_8->setText(QString(" %1°C").arg(temp-270));
+                                ui->temp_8->setText(QString(" %1°C").arg(temp-272.7));
                                 ui->time_8->setText(timeStr);
                             } else if (j == 6) {
-                                ui->temp_1->setText(QString(" %1°C").arg(temp-271.7));
+                                ui->temp_1->setText(QString(" %1°C").arg(temp-272.8));
                                 ui->time_first->setText(timeStr);
                             } else if (j == 7) {
                                 ui->temp_2->setText(QString(" %1°C").arg(temp-273));
@@ -291,6 +296,3 @@ void MainWindow::on_Guncelle_clicked(){
     });
 
 }
-
-
-
