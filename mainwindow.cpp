@@ -111,8 +111,8 @@ void MainWindow::setWeatherIcon(QString weatherCode)
 void MainWindow::on_Guncelle_clicked(){
 
     // Firebase bağlantı bilgileri
-    const QString firebaseDatabaseUrl = "firebase adress";
-    const QString firebaseApiKey = "firebase api";
+    const QString firebaseDatabaseUrl = "https://pythonfirebase-d6440-default-rtdb.firebaseio.com/";
+    const QString firebaseApiKey = "AIzaSyAG5CQn9fyX_JIzBq41JWQ34jOoRTXQex4i";
 
     // Firebase REST API için URL
     const QString firebaseUrl = firebaseDatabaseUrl + "weather.json?auth=" + firebaseApiKey;
