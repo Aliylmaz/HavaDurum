@@ -335,7 +335,7 @@ background-color: rgb(212, 212, 212);</string>
       </rect>
      </property>
      <property name="text">
-      <string>çarşamba</string>
+      <string>Day 3</string>
      </property>
     </widget>
     <widget class="QLabel" name="DatePrs">
@@ -361,7 +361,7 @@ background-color: rgb(212, 212, 212);</string>
       </rect>
      </property>
      <property name="text">
-      <string>perşembe</string>
+      <string>Day 3</string>
      </property>
     </widget>
     <widget class="QLabel" name="Daysali">
@@ -374,7 +374,7 @@ background-color: rgb(212, 212, 212);</string>
       </rect>
      </property>
      <property name="text">
-      <string>salı</string>
+      <string>Day 2</string>
      </property>
     </widget>
     <widget class="QLabel" name="DateCrs">
@@ -400,7 +400,7 @@ background-color: rgb(212, 212, 212);</string>
       </rect>
      </property>
      <property name="text">
-      <string>cuma</string>
+      <string>Day 5</string>
      </property>
     </widget>
     <widget class="QLabel" name="Datepzt">
@@ -426,7 +426,7 @@ background-color: rgb(212, 212, 212);</string>
       </rect>
      </property>
      <property name="text">
-      <string>pazartesi</string>
+      <string>Day 1</string>
      </property>
     </widget>
     <widget class="QWidget" name="horizontalLayoutWidget">
